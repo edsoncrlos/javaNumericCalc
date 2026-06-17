@@ -65,4 +65,14 @@ public class LagrangeInterpolationTest {
 
         assertEquals(10.0, result, delta);
     }
+
+    @Test
+    void shouldBeCorrect() {
+        double[] x = {1.0, 2.0, 3.0, 4.0, 5.0};
+        double[] y = {1.2, 1.9, 3.2, 5.5, 8.2};
+
+        double result = lagrangeInterpolation.interpolate(x, y, 3.5);
+
+        assertEquals(2713.0/640.0, result, delta);
+    }
 }
