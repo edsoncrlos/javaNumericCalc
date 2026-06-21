@@ -4,6 +4,14 @@
 package br.ufma.edson.javacalc;
 
 public class Library {
+    public static void main(String[] args) {
+
+        System.out.println("=== JavaCalc ===");
+        System.out.println("1 - Interpolação");
+        System.out.println("2 - Integração");
+        System.out.println("3 - Ajuste de Curvas");
+    }
+
     public boolean someLibraryMethod() {
         return true;
     }
