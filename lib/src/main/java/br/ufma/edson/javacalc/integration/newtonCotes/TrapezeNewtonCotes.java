@@ -1,4 +1,4 @@
-package br.ufma.edson.javacalc.integration;
+package br.ufma.edson.javacalc.integration.newtonCotes;
 
 public class TrapezeNewtonCotes implements NewtonCotes {
     @Override

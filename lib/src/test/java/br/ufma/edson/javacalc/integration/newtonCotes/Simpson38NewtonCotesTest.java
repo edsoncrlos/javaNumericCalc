@@ -1,4 +1,4 @@
-package br.ufma.edson.javacalc.integration;
+package br.ufma.edson.javacalc.integration.newtonCotes;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
